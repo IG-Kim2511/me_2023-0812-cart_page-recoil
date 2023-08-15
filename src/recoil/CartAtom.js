@@ -9,6 +9,7 @@ export const CartAtom = atom({
 });
 
 
+// 👉./components/CartItem.js
 // 👉./pages/Cart.js
 export const QuantitySelector = selector({
   key: "QuantitySelector",
@@ -18,6 +19,7 @@ export const QuantitySelector = selector({
   },
 });
 
+// 👉./components/CartItem.js
 // 👉./pages/Cart.js
 export const TotalPriceSelector = selector({
   key: "TotlaPriceSelector",
