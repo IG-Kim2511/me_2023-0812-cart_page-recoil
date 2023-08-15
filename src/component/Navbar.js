@@ -7,31 +7,21 @@ import logoElem from "../assets/poke(4).png";
 function Navbar() {
 
   return (
-    <Header>
-
-    <Link/>
+    <div>    
       <Wrapper>
         <Link to={"/"} aria-label="go home">
           <img src={logoElem} alt="icon" className="imgWidth"/>
         </Link>
         <Nav>
-          <Link to={"/"} aria-label="go home">홈</Link>
-          <Link to={"/cart"} aria-label="go cart">장바구니</Link>
+          <Link to={"/"} aria-label="go home">Home</Link>
+          <Link to={"/cart"} aria-label="go cart">Cart</Link>
         </Nav>
       </Wrapper>
-    </Header>
+    </div>
   );
 }
 
-const Header = styled.header`
-  width: 100%;
-  height: 72px;
-  border-bottom: 1px solid #ccc;
-  position: fixed;
-  top: 0;
-  z-index: 9999;
-  background-color: #fff;
-`;
+
 const Wrapper = styled.div`
   width: 100%;
   height: 100%;
