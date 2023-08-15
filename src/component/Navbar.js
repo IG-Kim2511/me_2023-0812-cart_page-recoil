@@ -16,7 +16,7 @@ function Navbar() {
           <Link to={"/"} aria-label="go home">Home</Link>
           <Link to={"/cart"} aria-label="go cart">Cart</Link>
         </Nav>
-      </Wrapper>
+      </Wrapper>     
     </div>
   );
 }

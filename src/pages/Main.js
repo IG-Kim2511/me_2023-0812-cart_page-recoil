@@ -9,11 +9,13 @@ import ProductCard from "../component/ProductCard";
 function Main() {
   return (
     <ListWrapper>
+
+    {/* 🍀 map((e)) e데이터를 props로 보냄 */}
       {data.map((e) => {
         return (
           <li key={e.id}>
-            <ProductCard/>
-            {/*   <ProductCard data={e} /> */}
+            <ProductCard data={e}/>
+            
           </li>
         );
       })}
