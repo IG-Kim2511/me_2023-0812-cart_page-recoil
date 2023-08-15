@@ -1,6 +1,10 @@
-import styled from "styled-components";
-// import ProductCard from "./../component/ProductCard/ProductCard";
+// 🍀data
 import data from '../assets/data'
+
+import styled from "styled-components";
+import ProductCard from "../component/ProductCard";
+
+
 
 function Main() {
   return (
@@ -8,8 +12,7 @@ function Main() {
       {data.map((e) => {
         return (
           <li key={e.id}>
-            <div>hi</div>
-
+            <ProductCard/>
             {/*   <ProductCard data={e} /> */}
           </li>
         );

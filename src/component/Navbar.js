@@ -1,7 +1,7 @@
+// 🍀router
 import { Link } from "react-router-dom";
 
 import styled from "styled-components";
-
 import logoElem from "../assets/poke(4).png";
 
 function Navbar() {
