@@ -65,6 +65,7 @@ const ItemWrapper = styled.ul`
   flex-direction: column;
 `;
 const TotalPriceWrapper = styled.div`
+  margin: auto;
   padding: 16px;
   height: 150px;
   width: 100%;
